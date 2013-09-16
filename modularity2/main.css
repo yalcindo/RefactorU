@@ -1,0 +1,137 @@
+/* ADD YOUR STYLES HERE */
+.horizontal{
+	
+	padding:20px;
+	float:left;
+	margin:0;
+}
+#hrzn{
+ 
+  
+}
+.vertical2{
+	margin-top:25%;
+	margin-bottom:25%;
+}
+.lists{
+	display:inline-block;
+}
+#buy-button{
+	display:inline-block;
+	width:120px;
+	height:40px;
+	padding-top:20px;
+	background-color:orange;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+}
+#learn-button{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	padding-top:15px;
+	background-color:orange;
+	border-radius:8px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+}
+#ok-button{
+	display:inline-block;
+	width:60px;
+	height:20px;
+	background-color:orange;
+	border-radius:4px;
+	text-align:center;
+	vertical-align:middle;
+	text-decoration:none;
+}
+.buttons{
+	text-decoration:none;
+	display:inline-block;
+	width:160px;
+	height:40px;
+	background-color:orange;
+	border-radius:10px;
+	text-align:center;
+	vertical-align:middle;
+
+
+}
+#but-learn{
+padding-top:20px;
+}
+#nav{
+
+	height:60px;
+	
+	width:100%;
+	background-color:orange;
+	border-radius:10px;
+	
+}
+.nav-item{
+
+display:inline-block;
+padding:24px;
+
+
+}
+#list-item{
+	margin-left:5%;
+	margin-right:5%
+   }
+.page{
+	float: left;
+display: inline-block;
+margin-left: 20px;
+color:lightpink;
+}
+.twit1{
+overflow:auto;
+padding-bottom:12px;
+padding-left:12px;
+}
+.twit2{
+float:left;
+
+}
+#twit3{
+	padding-left:12px;
+	overflow:auto;
+	
+
+}
+.twit4{
+  float:left;
+
+}
+.twit5{
+   clear:both;
+	float:left;
+	margin-left:80px;
+}
+
+.twit6{
+	padding-top:10px;
+}
+
+
+.tab{
+	display: inline-block;
+	border: solid;
+
+	border-width: 1px 1px 0 1px;
+	margin: 0 0.5em 0 0;
+}
+#content{
+	border:1px solid;
+
+}
+#listtab{
+	list-style: none;
+	padding:0;
+	margin:0;
+}

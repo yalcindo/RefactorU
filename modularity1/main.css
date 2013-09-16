@@ -1,0 +1,88 @@
+/* ADD YOUR STYLES HERE */
+
+.space {
+	width: 90%;
+
+}
+
+.line{
+	
+	border-bottom:1px solid black;
+	line-height:30px;
+
+}
+
+.line:last-child{
+	border-bottom: none;
+}
+.num1{
+	font-size:40px;
+	text-align:center;
+}
+.text1{
+	font-size:12px;
+	text-align:center;
+	opacity:0.4;
+}
+.text1:first-child{
+	
+	border-top:1px solid black;
+}
+#table3{
+	width:40%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+#table4{
+	width:100%;
+
+}
+.bar-chart{
+   
+   background-color:#00bfff;
+    
+}
+.lang{
+	width:12%;
+}
+#lightbox{
+	margin:14%;
+		background-color:white;
+}
+#darkbox{
+
+	display:-webkit-flex;
+	display:flex;
+	height:500px;
+	background-color:rgba(145, 145, 153, 0.97);
+}
+.lightbox-text{
+margin-right: 8%;
+margin-left:8%;
+}
+#close-button{
+line-height:250%;
+border-radius:5px;
+background-color:orange;
+position:relative;
+width:80px;
+height:40px;
+text-align:center;
+float:right;
+margin-right:100px;
+
+}
+#hello{
+ margin-left:8%;
+ margin-top: 2%
+}
+.media{
+	float:left;
+	margin-right:5px;
+	
+}
+#cake1,#cake2,.cake3{
+	overflow:auto;
+}
+
+
