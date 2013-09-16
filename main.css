@@ -1,0 +1,143 @@
+body{
+	background-color:wheat;
+	margin-top:0px;
+	padding:0px;
+	margin:0;
+}
+#navbar{
+	width:50%;
+	margin-left:10%;
+}
+.links{
+	height:80px;
+	width:80px;
+	border-style:dotted solid;
+	border-radius:80px;
+	float:right;
+	background-color:coral;
+	border-color:black;
+}
+
+header{
+	position:fixed;
+  	background-color:silver;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+
+}
+header h1{
+	color:blue;
+}
+
+
+header nav{
+	
+	overflow:hidden;
+	background-color:white;
+	width:100%;
+	float:right;
+	text-align:center;
+
+}
+nav h4{
+	float:left;
+	padding-left:10px;
+
+}
+.article-container{
+	padding-top:90px;
+    margin-left:10%;
+    margin-right:10%;
+	overflow:hidden;
+	clear:both;
+}
+article{
+	float:left;
+	height:80%;
+	width:60%;
+	background-color:azure;
+}
+h2{
+	text-decoration:underline;
+}
+article div p{
+	font-family:Arial;
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	text-decoration:;
+}
+aside{
+	float:right;
+	height:80%;
+	width:40%;
+	background-color:#C0C0C0;
+}
+#side-carpet{
+-webkit-perspective: 600px;
+padding-top:20px;
+background-color: blue;
+
+}
+#side-carpet:hover #second{
+-webkit-transform: rotateY(0);
+}
+#side-carpet:hover #first{
+-webkit-transform: rotateY(180deg);
+}
+#first{
+	position:absolute;
+	transition: -webkit-transform 1s;
+
+}
+
+#second{
+	transition: -webkit-transform 1s;
+	-webkit-transform: rotateY(-180deg);
+
+	
+}
+#second img{
+	
+width:200px;
+height:200px;
+}
+
+#first img{
+	
+width:200px;
+height:200px;
+}
+
+#first,#second{
+
+	width:200px;
+	height:200px;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+}
+
+section{
+	padding:0;
+	margin:0;
+	background-color:red;
+	
+}
+footer{
+	
+	background-color:azure;
+	margin:0;
+	text-align:center;
+	margin-left:10%;
+	margin-right:34%;
+}
+  text-transform
+white-space, text-align, text-indent, line-height, letter-spacing, vertical-align
+margin, padding, border, border-width, border-style,   min-width, max-width, height, min-height, max-height, overflow
+display, position, top, right, bottom, z-index, visibility
+background, background-attachment, background-color, background-image, background-position, background-repeat
+list-style, list-style-type, list-style-position, list-style-image
+border-collapse, border-spacing
