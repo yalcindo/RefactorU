@@ -1,0 +1,19 @@
+#social-ul img{
+	width:240px;
+	height:240px;
+	margin:20px;
+	
+}
+
+#albums-div{
+ margin:100px;
+  overflow:hidden;
+  background-color:white;
+  border-radius:10px;
+
+vertical-align:baseline;
+}
+#albums-div li{
+	display:inline-block;
+	float:left;
+}
